@@ -24,6 +24,9 @@
             <url>https://maven.pkg.github.com/ideaport2023/hello</url>
         </repository>
     </distributionManagement>
+    <scm>
+        <developerConnection>scm:git:https://github.com/ideaport2023/hello.git</developerConnection>
+    </scm>
 
     <dependencies>
         <dependency>
@@ -56,6 +59,11 @@
                         </exclude>
                     </excludes>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>3.0.1</version>
             </plugin>
         </plugins>
     </build>
