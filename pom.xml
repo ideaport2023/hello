@@ -24,6 +24,7 @@
         </repository>
     </distributionManagement>
     <scm>
+        <connection>scm:git:https://github.com/ideaport2023/hello.git</connection>
         <developerConnection>scm:git:https://github.com/ideaport2023/hello.git</developerConnection>
         <tag>0.0.1</tag>
     </scm>
