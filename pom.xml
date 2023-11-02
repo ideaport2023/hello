@@ -26,7 +26,7 @@
     <scm>
         <connection>scm:git:https://github.com/ideaport2023/hello.git</connection>
         <developerConnection>scm:git:https://github.com/ideaport2023/hello.git</developerConnection>
-      <tag>0.0.1</tag>
+        <tag>0.0.1-SNAPSHOT</tag>
   </scm>
 
     <dependencies>
@@ -66,7 +66,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>3.0.1</version>
                 <configuration>
-                    <tagNameFormat>@{project.version}</tagNameFormat>
+                    <tagNameFormat>@{project.version}-SNAPSHOT</tagNameFormat>
                     <checkModificationExcludes>
                         <checkModificationExclude>pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
